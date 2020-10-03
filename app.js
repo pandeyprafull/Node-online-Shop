@@ -2,9 +2,7 @@
 const dotenv = require('dotenv');
 dotenv.config();
 
-
 const path = require('path');
-
 const express = require('express');
 const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
@@ -87,7 +85,7 @@ mongoose.connect('mongodb+srv://max:max1234@cluster0-3tcuc.mongodb.net/Shop?retr
                 console.log("Err to connect to server", err)
             }
             else {
-                console.log("Server started successfully!!!")
+                console.log("Server started successfully!!")
             }
         })
     })
